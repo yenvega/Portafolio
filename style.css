@@ -1,0 +1,291 @@
+/* Reset CSS */
+@import url('reset.css');
+
+/* Estilos generales */
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f7f4; /* Verde claro */
+    color: #333; /* Negro */
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title__container {
+    display: flex;
+    flex-direction: column; /* Mostrar los elementos en columna */
+}
+
+.title__bio {
+    margin-bottom: 50px; /* Añadir un espacio entre el título y los elementos de la red */
+    text-align: center;
+    padding-block: 20px;
+}
+
+.title__network {
+    display: flex;
+    flex-direction: row; /* Cambiar a fila */
+    align-items: center;
+    padding: auto;
+}
+
+.title__network__item {
+    margin-top: 2%;
+    margin-left: 4%;
+    margin-right: 50px; /* Añade espacio entre los elementos de la red */
+    padding-right: 10%;
+    margin-bottom: 5%;
+}
+
+.title__network__item:last-child {
+    margin-right: 0; /* Elimina el margen del último elemento para evitar espacio adicional */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos para el encabezado */
+.menu {
+    background-color: #3cb371; /* Verde oscuro */
+    padding: 20px;
+    text-align: center;
+}
+
+.menu__title {
+    font-size: 24px;
+    color: #fff; /* Blanco */
+}
+
+.menu__list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu__list__item {
+    display: inline;
+    margin-right: 20px;
+}
+
+.menu__list__item a {
+    text-decoration: none;
+    color: #fff; /* Blanco */
+}
+
+/* Estilos para las secciones */
+.section {
+    padding: 40px;
+}
+
+.section h2 {
+    font-size: 24px;
+    color: #3cb371; /* Verde oscuro */
+    margin-bottom: 20px;
+}
+
+.section p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Estilos para las habilidades */
+.skills {
+    padding: 40px;
+    background-color: #fff; /* Blanco */
+}
+
+.skills__title {
+    font-size: 24px;
+    color: #3cb371; /* Verde oscuro */
+    margin-bottom: 20px;
+}
+
+.skills__line {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills__box {
+    width: calc(30% - 100px);
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.skills__img img {
+    width: 40px; /* Ajusta el tamaño de la imagen según sea necesario */
+}
+
+.skills__name {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/* Estilos para los hobbies */
+.hobbies {
+    padding: 40px;
+    background-color: #f0f7f4; /* Verde claro */
+}
+
+.hobbies__title {
+    font-size: 24px;
+    color: #3cb371; /* Verde oscuro */
+    margin-bottom: 20px;
+}
+
+.hobbies__line {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hobbies__box {
+    width: calc(30% - 100px);
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.hobbies__img img {
+    width: 40px; /* Ajusta el tamaño de la imagen según sea necesario */
+}
+
+.hobbies__name {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/* Estilos para la formación académica */
+.academic {
+    padding: 40px;
+    background-color: #fff; /* Blanco */
+}
+
+.academic__title {
+    font-size: 24px;
+    color: #3cb371; /* Verde oscuro */
+    margin-bottom: 20px;
+}
+
+.academic__courses {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.academic__courses__box {
+    width: calc(50% - 20px);
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.academic__courses__item__img img {
+    width: 100px; /* Ajusta el tamaño de la imagen según sea necesario */
+}
+
+.academic__courses__item__title {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.academic__courses__item__subtitle {
+    font-size: 14px;
+    color: #666; /* Gris */
+}
+
+/* Estilos para la experiencia profesional */
+.experience {
+    padding: 40px;
+    background-color: #f0f7f4; /* Verde claro */
+}
+
+.experience__section__title {
+    font-size: 24px;
+    color: #3cb371; /* Verde oscuro */
+    margin-bottom: 20px;
+}
+
+.experiencie__box {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.experience__img {
+    width: 600px; /* Ajusta el tamaño de la imagen según sea necesario */
+    margin-right: 20px;
+}
+
+.experience__info {
+    flex: 4;
+}
+
+.experience__title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.experience__text {
+    font-size: 16px;
+    color: #666; /* Gris */
+    margin-bottom: 10px;
+}
+
+.experience__repo {
+    margin-right: 10px;
+}
+
+.experience__repo button {
+    background-color: #3cb371; /* Verde oscuro */
+    color: #fff; /* Blanco */
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+/* Estilos para el formulario de contacto */
+.formcontato {
+    padding: 40px;
+    background-color: #fff; /* Blanco */
+}
+
+.formcontato__title {
+    font-size: 24px;
+    color: #3cb371; /* Verde oscuro */
+    margin-bottom: 20px;
+}
+
+.formcontato__subtext {
+    font-size: 16px;
+    color: #666; /* Gris */
+    margin-bottom: 20px;
+}
+
+.formcontato__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.formcontato__input,
+.formcontato__textarea {
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.formcontato__botao {
+    background-color: #3cb371; /* Verde oscuro */
+    color: #fff; /* Blanco */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Estilos para el pie de página */
+.footer {
+    background-color: #3cb371; /* Verde oscuro */
+    padding: 20px;
+    text-align: center;
+    color: #fff; /* Blanco */
+}

@@ -1,0 +1,74 @@
+/* reset.css */
+
+/* Box sizing border-box para todos los elementos */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+/* Reset de márgenes y relleno */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+
+/* Fuentes predeterminadas para evitar inconsistencias entre navegadores */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Ajustar la altura del botón para que sea igual en todos los navegadores */
+button {
+    height: auto;
+}
+
+/* Corregir la desalineación de los elementos en IE y Edge */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+/* Restaurar estilos predeterminados de listas */
+ul, ol {
+    list-style: none;
+}
+
+/* Eliminar subrayado de enlaces por defecto */
+a {
+    text-decoration: none;
+}
+
+/* Restaurar cursor de texto para textarea */
+textarea {
+    cursor: text;
+}
+
+/* Estilo de los elementos de formulario */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+textarea,
+select {
+    font-family: inherit;
+    font-size: inherit;
+}
+
+/* Estilo de imagen predeterminado */
+img {
+    max-width: 100%;
+    height: auto;
+}
